@@ -80,16 +80,7 @@ A plataforma é composta por três camadas principais:
 - Finalização de pedidos
 - Administração de produtos e pedidos
 
-📦 Estrutura do Projeto
-plataforma-farmacia-virtual-aws/
-│
-├── frontend/          # Interface do usuário (S3 + CloudFront)
-├── backend/           # API REST (EC2 / Elastic Beanstalk)
-├── database/          # Scripts SQL e modelos de dados
-├── infrastructure/    # Diagramas e documentação AWS
-└── README.md
-
-🛠️ Implantação na AWS (Resumo)
+## 🛠️ Implantação na AWS (Resumo)
 1. Criar uma VPC com sub-redes públicas e privadas
 2. Provisionar o Amazon RDS em sub-rede privada
 3. Criar o Backend em EC2 ou Elastic Beanstalk
