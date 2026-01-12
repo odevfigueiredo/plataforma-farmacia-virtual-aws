@@ -1,6 +1,8 @@
 ## RELATÓRIO DE IMPLEMENTAÇÃO DE SERVIÇOS AWS
 Data: 15 de janeiro de 2026
+
 Empresa: Abstergo Industries
+
 Responsável: Jonatha F.
 
 ## Introdução
@@ -32,5 +34,5 @@ Foi configurado o AWS Cost Explorer para análise detalhada do consumo de recurs
 A implementação das ferramentas na empresa Abstergo Industries tem como resultado esperado a redução imediata de custos operacionais, maior visibilidade sobre o consumo de recursos em nuvem e uso mais eficiente da infraestrutura de TI. A adoção de serviços como Auto Scaling, S3 Intelligent-Tiering e ferramentas de gestão financeira da AWS permitiu otimizar recursos sem comprometer a disponibilidade ou a segurança dos sistemas corporativos.
 Recomenda-se a continuidade da utilização das soluções implementadas e a avaliação periódica de novos serviços da AWS que possam ampliar ainda mais a eficiência, a escalabilidade e o controle financeiro da infraestrutura da empresa.
 
-Assinatura do ResponsÃ¡vel pelo Projeto:
+Assinatura do Responsável pelo Projeto:
 Jonatha F. (odevfigueiredo)
