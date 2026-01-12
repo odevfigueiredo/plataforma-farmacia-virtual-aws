@@ -23,12 +23,12 @@ A solução aplica conceitos reais de computação em nuvem por meio de uma arqu
 ## 🏗️ Diagrama de Arquitetura
 ```mermaid
 flowchart TB
-    U[Usuário / Navegador]
-    CF[Amazon CloudFront]
-    S3FE[Amazon S3<br/>(Frontend)]
-    ALB[Application Load Balancer<br/>(opcional)]
-    APP[Amazon EC2 /<br/>AWS Elastic Beanstalk]
-    RDS[Amazon RDS<br/>(MySQL / PostgreSQL)]
+    U["Usuário / Navegador"]
+    CF["Amazon CloudFront"]
+    S3FE["Amazon S3 (Frontend)"]
+    ALB["Application Load Balancer (opcional)"]
+    APP["Amazon EC2 / AWS Elastic Beanstalk"]
+    RDS["Amazon RDS (MySQL / PostgreSQL)"]
 
     U --> CF
     CF --> S3FE
@@ -37,16 +37,15 @@ flowchart TB
     APP --> RDS
 
     subgraph Apoio["Serviços de Apoio"]
-        IAM[Amazon IAM<br/>Controle de permissões]
-        COG[Amazon Cognito<br/>Autenticação de usuários]
-        S3AS[Amazon S3<br/>Imagens e arquivos]
-        CW[Amazon CloudWatch<br/>Monitoramento e logs]
+        IAM["Amazon IAM - Controle de permissões"]
+        COG["Amazon Cognito - Autenticação de usuários"]
+        S3AS["Amazon S3 - Imagens e arquivos"]
+        CW["Amazon CloudWatch - Monitoramento e logs"]
     end
 
     APP --- IAM
     APP --- COG
-    APP --- S3AS
-    APP --- CW
+    APP --- S3A
 ```
 ## 🏗️ Arquitetura da Solução
 A plataforma é composta por três camadas principais:
