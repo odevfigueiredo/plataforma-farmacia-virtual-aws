@@ -2,7 +2,6 @@
 
 ![AWS](https://img.shields.io/badge/AWS-Cloud-orange?logo=amazonaws&logoColor=white)
 ![Status](https://img.shields.io/badge/status-estável-brightgreen)
-![Licença](https://img.shields.io/badge/licença-MIT-blue)
 
 Plataforma virtual de uma **farmácia fictícia** desenvolvida sobre a infraestrutura da **Amazon Web Services (AWS)**, com foco em boas práticas de arquitetura em nuvem, escalabilidade, segurança e alta disponibilidade.  
 Projeto voltado para fins **acadêmicos e de portfólio técnico**.
