@@ -66,6 +66,18 @@ A plataforma é composta por três camadas principais:
 5. Monitoramento:
 - Amazon CloudWatch
 
+## 📑 Relatório de Implementação (Caminho e Conteúdo)
+Arquivo: `RELATÓRIO.md`
+
+O que o relatório contém:
+- Contexto do projeto: objetivo de redução imediata de custos operacionais na AWS.
+- Etapa 1 — Amazon EC2 Auto Scaling: ajuste automático de capacidade para eliminar recursos ociosos e reduzir custos de computação.
+- Etapa 2 — Amazon S3 Intelligent-Tiering: otimização de armazenamento ao mover dados entre camadas de menor custo conforme padrão de acesso.
+- Etapa 3 — AWS Cost Explorer & AWS Budgets: visibilidade, análise de consumo e controle proativo de gastos.
+- Resultados esperados: economia imediata, maior eficiência de infraestrutura e governança financeira.
+
+_Este relatório documenta decisões de arquitetura e práticas de FinOps, servindo como evidência de competências em otimização de custos, governança e operação em nuvem._
+
 ## 🚀 Tecnologias Utilizadas
 - Frontend: HTML5, CSS3, JavaScript (ou React)
 - Backend: Node.js / Python (Flask, Django) / Java (Spring Boot)
